@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="P Kethan Janaki Ram — BTech CSE student and aspiring frontend developer. Portfolio, projects and contact." />
+  <title>P Kethan Janaki Ram | Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#home" class="logo">KJ<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">P Kethan Janaki Ram</h1>
+      <h2 class="hero-tagline">BTech CSE Student <span class="sep">|</span> Aspiring Frontend Developer</h2>
+      <p class="hero-desc">
+        I'm learning to build clean, responsive websites with HTML, CSS and JavaScript —
+        and documenting the whole journey, one project at a time.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Ram-8585" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/palakurthi-kethan-janakiram/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">↓</a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container reveal">
+      <p class="section-label">About</p>
+      <h2 class="section-title">A little about me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a 3rd-year BTech Computer Science student at
+            <strong>SRM Institute of Science and Technology, Kattankulathur (Chennai)</strong>.
+          </p>
+          <p>
+            I started my frontend journey with a simple goal: go from zero to
+            internship-ready in one semester. Right now I'm working through
+            HTML, CSS and JavaScript — building real projects instead of just
+            watching tutorials — with React next on the roadmap.
+          </p>
+          <p>
+            I also hold Cisco Networking Academy certifications in
+            <strong>Networking Basics</strong> and
+            <strong>Networking Devices and Initial Configuration</strong>.
+          </p>
+        </div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-num">3rd</span><span class="fact-label">Year BTech CSE</span></div>
+          <div class="fact"><span class="fact-num">2</span><span class="fact-label">Cisco Certifications</span></div>
+          <div class="fact"><span class="fact-num">∞</span><span class="fact-label">Curiosity</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container reveal">
+      <p class="section-label">Skills</p>
+      <h2 class="section-title">What I'm working with</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>Semantic markup, forms, accessibility basics.</p>
+          <span class="level">Building</span>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>Flexbox, Grid, responsive layouts, animations.</p>
+          <span class="level">Building</span>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, events, fetch API basics.</p>
+          <span class="level">Building</span>
+        </div>
+        <div class="skill-card">
+          <h3>React</h3>
+          <p>Components, props and state — up next on the roadmap.</p>
+          <span class="level level-learning">Learning</span>
+        </div>
+        <div class="skill-card">
+          <h3>Java</h3>
+          <p>OOP fundamentals from coursework and lab projects.</p>
+          <span class="level level-familiar">Familiar</span>
+        </div>
+        <div class="skill-card">
+          <h3>Git &amp; GitHub</h3>
+          <p>Branching, pull requests, GitHub Pages deployments.</p>
+          <span class="level">Building</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container reveal">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title">Things I've built</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top"><span class="project-tag">HTML · CSS · JS</span></div>
+          <h3>Portfolio Website</h3>
+          <p>This very site — a responsive single-page portfolio built with vanilla HTML, CSS and JavaScript, deployed on GitHub Pages.</p>
+          <div class="project-links">
+            <a href="https://github.com/Ram-8585" target="_blank" rel="noopener">Code →</a>
+          </div>
+        </article>
+        <article class="project-card project-soon">
+          <div class="project-top"><span class="project-tag">JavaScript</span></div>
+          <h3>Interactive JS App</h3>
+          <p>Coming soon — an interactive browser app to go deeper into DOM manipulation, events and client-side storage.</p>
+        </article>
+        <article class="project-card project-soon">
+          <div class="project-top"><span class="project-tag">React</span></div>
+          <h3>React App</h3>
+          <p>Coming soon — a full React app with routing, API data and real-world features.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container reveal contact-inner">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title">Let's connect</h2>
+      <p class="contact-desc">
+        I'm always happy to talk about web development, internships, or anything
+        tech. My inbox is open.
+      </p>
+      <div class="contact-cards">
+        <a class="contact-card" href="mailto:janakiram36366@gmail.com">
+          <span class="contact-icon">✉</span>
+          <span class="contact-text"><strong>Email</strong>janakiram36366@gmail.com</span>
+        </a>
+        <a class="contact-card" href="https://github.com/Ram-8585" target="_blank" rel="noopener">
+          <span class="contact-icon">⌨</span>
+          <span class="contact-text"><strong>GitHub</strong>@Ram-8585</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/palakurthi-kethan-janakiram/" target="_blank" rel="noopener">
+          <span class="contact-icon">in</span>
+          <span class="contact-text"><strong>LinkedIn</strong>Connect with me</span>
+        </a>
+      </div>
+      <p class="contact-loc">📍 Chennai, Tamil Nadu, India</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> P Kethan Janaki Ram · Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
